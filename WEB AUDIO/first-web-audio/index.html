@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First Web Audio</title>
+</head>
+<body>
+    
+    <button data-playing="false" role="switch" aria-checked="false">
+        <span>Play/Pause</span>
+    </button>
+    <input type="range" id="volume" min="0" max="2" value="1" step="0.01" />
+
+    <audio>
+        <source src="CowbellA90-01.wav" type="audio/wav" />
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
